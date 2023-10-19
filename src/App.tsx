@@ -70,9 +70,9 @@ const Box = styled.div`
   }
   
   
-  // @media ${myTheme.media.tablet} {
-  //   flex-direction: column;
-  // }
+  @media ${myTheme.media.tablet} {
+    flex-direction: column;
+  }
 `
 
 
