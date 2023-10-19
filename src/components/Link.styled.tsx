@@ -1,9 +1,8 @@
 import styled from "styled-components";
+import {myTheme} from "./styles/Theme.styled";
 
 export const Link = styled.a`
-  color: #123c91;
-  font-size: 2ren;
-  font-weight: bold;
-  background-color: transparent;
-  padding: 0;
+  display: inline-block;
+  color: ${myTheme.colors.primary};
+  padding: 5px 20px;
 `

@@ -1,12 +1,10 @@
 
 export const myTheme = {
     colors:{
-        primary: "gold",
-        secondary: "lightgreen",
-        grey: {
-            dark: "#251f1f",
-            light: "#696363"
-        }
+        fond:  "#ABB3BA",
+        primary: "#FFFFFF",
+        secondary: "#4E71FE",
+
     },
 
     media:{
