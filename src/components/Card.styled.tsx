@@ -6,4 +6,5 @@ export const CardStyled = styled.div`
   background-color: ${myTheme.colors.primary};
   box-shadow: 0 4px 20px 5px rgba(0, 0, 0, 0.10);
   width: 300px;
+  padding: 10px
 `

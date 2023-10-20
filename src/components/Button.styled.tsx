@@ -15,12 +15,11 @@ export const StyledBtn = styled.button<StyledBtnPropsType>`
   border-radius: 5px;
   background-color: ${ props => props.bgcColor || "#4E71FE"};
   color:  ${myTheme.colors.primary};
-  margin: 10px 20px;
-  padding: 5px 20px;
+
   
   
-  &:last-child{
-    margin-left: -10px;
+  & + &{
+    margin-left: 10px;
   }
   
   &:hover{
